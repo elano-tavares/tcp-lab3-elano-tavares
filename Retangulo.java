@@ -41,6 +41,6 @@ public class Retangulo extends FiguraGeometrica {
 
     @Override
     public String getDetalhes() {
-        return getInfo() + "largura: " + largura + "altura: " + altura;
+        return getTipoFigura() + ", " + getInfo() + ", Largura: " + largura + ", Altura: " + altura;
     }
 }

@@ -21,7 +21,7 @@ public class TrianguloEquilatero extends FiguraGeometrica {
 
     @Override
     public double calcularPerimetro(){
-        return (Math.pow(lado, 3));
+        return 3 * lado;
     }
 
     @Override
@@ -31,6 +31,6 @@ public class TrianguloEquilatero extends FiguraGeometrica {
 
     @Override
     public String getDetalhes() {
-        return getInfo() + "lado: " + lado;
+        return getTipoFigura() + ", " + getInfo() + ", Lado: " + lado;
     }
 }
